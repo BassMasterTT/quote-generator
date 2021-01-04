@@ -18,6 +18,15 @@ body {
     justify-content: center;
 }
 
+h3 {
+    font-family: Montserrat sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
 .quote-container {
     width: auto;
     max-width: 900px;
