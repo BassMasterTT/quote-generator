@@ -109,10 +109,17 @@ button:active {
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width: 1000px) {
     .quote-container{
-        margin: auto 10px;
+        box-sizing: border-box;
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    
     }
 
     .quote-text {
-        font-size: 2.5rem;
+        font-size: 22px;
     }
+    #new-quote {
+         font-size: 12px;
+     }
 }
